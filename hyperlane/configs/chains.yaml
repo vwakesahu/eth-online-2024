@@ -1,0 +1,15 @@
+educhain:
+  name: bnb
+  chainId: 97
+  domainId: 656476
+  protocol: ethereum
+  rpcUrls:
+    - http: https://data-seed-prebsc-1-s1.bnbchain.org:8545
+inco:
+  name: inco
+  chainId: 9090
+  domainId: 9090
+  protocol: ethereum
+  rpcUrls:
+    - http: https://testnet.inco.org
+

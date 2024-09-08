@@ -1,0 +1,239 @@
+{
+  "chains": {
+    "bsctestnet": {
+      "blockExplorers": [
+        {
+          "apiUrl": "https://api-testnet.bscscan.com/api",
+          "family": "etherscan",
+          "name": "BscScan",
+          "url": "https://testnet.bscscan.com"
+        }
+      ],
+      "blocks": {
+        "confirmations": 1,
+        "estimateBlockTime": 3,
+        "reorgPeriod": 9
+      },
+      "chainId": 97,
+      "displayName": "BSC Testnet",
+      "domainId": 97,
+      "isTestnet": true,
+      "name": "bsctestnet",
+      "nativeToken": {
+        "decimals": 18,
+        "name": "BNB",
+        "symbol": "BNB"
+      },
+      "protocol": "ethereum",
+      "rpcUrls": [
+        {
+          "http": "https://bsc-testnet.publicnode.com"
+        },
+        {
+          "http": "https://bsc-testnet.blockpi.network/v1/rpc/public"
+        }
+      ],
+      "aggregationHook": "0x3d675bB93250Ab7603F40cbb9194bae210784627",
+      "fallbackRoutingHook": "0x2670ED2EC08cAd135307556685a96bD4c16b007b",
+      "interchainAccountIsm": "0xa9D8Ec959F34272B1a56D09AF00eeee58970d3AE",
+      "interchainAccountRouter": "0x6d2B3e304E58c2a19f1492E7cf15CaF63Ce6e0d2",
+      "interchainGasPaymaster": "0x0dD20e410bdB95404f71c5a4e7Fa67B892A5f949",
+      "mailbox": "0xF9F6F5646F478d5ab4e20B0F910C92F1CCC9Cc6D",
+      "merkleTreeHook": "0xc6cbF39A747f5E28d1bDc8D9dfDAb2960Abd5A8f",
+      "protocolFee": "0x3eF0a63B8976b838704Bcc93C78C56b6653E5a39",
+      "proxyAdmin": "0xb12282d2E838Aa5f2A4F9Ee5f624a77b7199A078",
+      "staticAggregationHookFactory": "0xa1145B39F1c7Ef9aA593BC1DB1634b00CC020942",
+      "staticAggregationIsmFactory": "0x40613dE82d672605Ab051C64079022Bb4F8bDE4f",
+      "staticMerkleRootMultisigIsmFactory": "0x3E235B90197E1D6b5DB5ad5aD49f2c1ED6406382",
+      "staticMessageIdMultisigIsmFactory": "0x0D96aF0c01c4bbbadaaF989Eb489c8783F35B763",
+      "storageGasOracle": "0x124EBCBC018A5D4Efe639f02ED86f95cdC3f6498",
+      "testRecipient": "0x4a9D17814a82065d8AB9f43f023496a9DF13B1c1",
+      "testTokenRecipient": "0x260f6024119549a40595d0937471e607411E8ea5",
+      "timelockController": "0x0000000000000000000000000000000000000000",
+      "validatorAnnounce": "0xf09701B0a93210113D175461b6135a96773B5465",
+      "domainRoutingIsmFactory": "0x38E9912C29265E447e809c54bf9726d2444bACf9",
+      "interchainSecurityModule": "0x9F5A28c00E26469a1070Eef3152990A5325FC3A1",
+      "domainRoutingIsm": "0x9F5A28c00E26469a1070Eef3152990A5325FC3A1",
+      "customHook": "0xc6cbF39A747f5E28d1bDc8D9dfDAb2960Abd5A8f",
+      "index": {
+        "from": 34323977
+      }
+    },
+    "garnet": {
+      "name": "garnet",
+      "chainId": 17069,
+      "domainId": 17069,
+      "protocol": "ethereum",
+      "rpcUrls": [
+        {
+          "http": "https://rpc.garnetchain.com"
+        }
+      ],
+      "staticMerkleRootMultisigIsmFactory": "0x631E0e3472C8C356418FB4b22F33585D84987796",
+      "staticMessageIdMultisigIsmFactory": "0x70EA9271f7092a9E014FD03e9DF1dDc741268Cc3",
+      "staticAggregationIsmFactory": "0x96F71844b4d1b872ceC32F9EDcC85F555321C23F",
+      "staticAggregationHookFactory": "0x31a520E062bE2DC5f0b47a5924E6A787FABA6883",
+      "domainRoutingIsmFactory": "0x53Fb2faD17eF135cE6250E7C0A77b0903e2Ac76c",
+      "interchainSecurityModule": "0x9c41A185Fb1D88e8d9bb282f0Afa5Dfd59b28A1d",
+      "domainRoutingIsm": "0x9c41A185Fb1D88e8d9bb282f0Afa5Dfd59b28A1d",
+      "merkleTreeHook": "0x214C045acaC320a1EC03f804ea7405BEa34FEe02",
+      "protocolFee": "0x32D06A443429c62E1e5beb40c81135F825ECbC6a",
+      "testRecipient": "0xa19098527b353269a1Bb621a721a3D4077cE04b2",
+      "mailbox": "0xc9A4a2Cff04699806ef1895556746227a98A178f",
+      "proxyAdmin": "0x68D502C3C0F0061641e09CC73D36b9Ae0C49DF4e",
+      "validatorAnnounce": "0x59bec64454eFF18d4Aa9e19043bb716Da1728d04",
+      "interchainGasPaymaster": "0x0000000000000000000000000000000000000000",
+      "index": {
+        "from": 2640685
+      }
+    },
+    "inco": {
+      "name": "inco",
+      "chainId": 9090,
+      "domainId": 9090,
+      "protocol": "ethereum",
+      "rpcUrls": [
+        {
+          "http": "https://testnet.inco.org"
+        }
+      ],
+      "staticMerkleRootMultisigIsmFactory": "0x70237cD79908d51dCb1F91EDB1845a6172C2dc6f",
+      "staticMessageIdMultisigIsmFactory": "0x2F3519cA62e2D67dA3c2C7D031B58a86D463d8Ea",
+      "staticAggregationIsmFactory": "0x918F002e756DA91abd183748869754c42df55bCA",
+      "staticAggregationHookFactory": "0x8d44C5Faa5185237fe8112A0E95e40526200e42F",
+      "domainRoutingIsmFactory": "0x61Af68cb7bC9Ba4aDDf32E2d8f89Cd857f0fa2d0",
+      "interchainSecurityModule": "0x2ABe633a9a7FBC342d22aeceAEb3c1194B9295aA",
+      "domainRoutingIsm": "0x2ABe633a9a7FBC342d22aeceAEb3c1194B9295aA",
+      "merkleTreeHook": "0x94b05Cf391B3d25B533B60208c5c9CcE16941593",
+      "protocolFee": "0xa7d5b4672D565e4b2A09760b04aEb9e0CDe39C88",
+      "testRecipient": "0xB4a9EbAac794f2A5AD313Bd8C09b08939cF9733F",
+      "mailbox": "0x2f990fdD8318309DB1637aAbA145caA593616DB1",
+      "proxyAdmin": "0x041774979eE08254997B9A83EF16bBdf21D4c315",
+      "validatorAnnounce": "0x05649b9DA4f4B1916cE22A3b053c6d3ff1E9550A",
+      "interchainGasPaymaster": "0x0000000000000000000000000000000000000000",
+      "index": {
+        "from": 1816462
+      }
+    },
+    "scrollsepolia": {
+      "blockExplorers": [
+        {
+          "apiUrl": "https://api-sepolia.scrollscan.com/api",
+          "family": "etherscan",
+          "name": "Scroll Explorer",
+          "url": "https://sepolia.scrollscan.dev/"
+        }
+      ],
+      "blocks": {
+        "confirmations": 1,
+        "estimateBlockTime": 3,
+        "reorgPeriod": 1
+      },
+      "chainId": 534351,
+      "displayName": "Scroll Sepolia",
+      "domainId": 534351,
+      "isTestnet": true,
+      "name": "scrollsepolia",
+      "nativeToken": {
+        "decimals": 18,
+        "name": "Ether",
+        "symbol": "ETH"
+      },
+      "protocol": "ethereum",
+      "rpcUrls": [
+        {
+          "http": "https://sepolia-rpc.scroll.io"
+        }
+      ],
+      "aggregationHook": "0x7b63Aa270335F8896717c2A809205F4b650E4268",
+      "domainRoutingIsmFactory": "0x17866ebE0e503784a9461d3e753dEeD0d3F61153",
+      "fallbackRoutingHook": "0xE1CCB130389f687bf745Dd6dc05E50da17d9ea96",
+      "interchainAccountIsm": "0xE023239c8dfc172FF008D8087E7442d3eBEd9350",
+      "interchainAccountRouter": "0xe17c37212d785760E8331D4A4395B17b34Ba8cDF",
+      "interchainGasPaymaster": "0x86fb9F1c124fB20ff130C41a79a432F770f67AFD",
+      "mailbox": "0x3C5154a193D6e2955650f9305c8d80c18C814A68",
+      "merkleTreeHook": "0x863E8c26621c52ACa1849C53500606e73BA272F0",
+      "protocolFee": "0x5821f3B6eE05F3dC62b43B74AB1C8F8E6904b1C8",
+      "proxyAdmin": "0x598facE78a4302f11E3de0bee1894Da0b2Cb71F8",
+      "staticAggregationHookFactory": "0x44b764045BfDC68517e10e783E69B376cef196B2",
+      "staticAggregationIsmFactory": "0x16B710b86CAd07E6F1C531861a16F5feC29dba37",
+      "staticMerkleRootMultisigIsmFactory": "0x275aCcCa81cAD931dC6fB6E49ED233Bc99Bed4A7",
+      "staticMessageIdMultisigIsmFactory": "0xeb6f11189197223c656807a83B0DD374f9A6dF44",
+      "storageGasOracle": "0x6b1bb4ce664Bb4164AEB4d3D2E7DE7450DD8084C",
+      "testRecipient": "0x88b06E1eC81c8916aB1A45cD61cD2A6969FF6858",
+      "testTokenRecipient": "0xc76E477437065093D353b7d56c81ff54D167B0Ab",
+      "timelockController": "0x0000000000000000000000000000000000000000",
+      "validatorAnnounce": "0x527768930D889662Fe7ACF64294871e86e4C2381",
+      "interchainSecurityModule": "0xCED0900Bce11321Afe2a09c7FF74a309F854D2Fc",
+      "domainRoutingIsm": "0xCED0900Bce11321Afe2a09c7FF74a309F854D2Fc",
+      "customHook": "0x863E8c26621c52ACa1849C53500606e73BA272F0",
+      "index": {
+        "from": 1344054
+      }
+    },
+    "sepolia": {
+      "blockExplorers": [
+        {
+          "apiUrl": "https://api-sepolia.etherscan.io/api",
+          "family": "etherscan",
+          "name": "Etherscan",
+          "url": "https://sepolia.etherscan.io"
+        }
+      ],
+      "blocks": {
+        "confirmations": 1,
+        "estimateBlockTime": 13,
+        "reorgPeriod": 2
+      },
+      "chainId": 11155111,
+      "displayName": "Sepolia",
+      "domainId": 11155111,
+      "isTestnet": true,
+      "name": "sepolia",
+      "nativeToken": {
+        "decimals": 18,
+        "name": "Ether",
+        "symbol": "ETH"
+      },
+      "protocol": "ethereum",
+      "rpcUrls": [
+        {
+          "http": "https://ethereum-sepolia.publicnode.com"
+        },
+        {
+          "http": "https://ethereum-sepolia.blockpi.network/v1/rpc/public"
+        },
+        {
+          "http": "https://rpc.sepolia.org"
+        }
+      ],
+      "aggregationHook": "0xe3147d5618f5e2e100690B50ec923009a4cde14A",
+      "domainRoutingIsmFactory": "0x3F100cBBE5FD5466BdB4B3a15Ac226957e7965Ad",
+      "fallbackRoutingHook": "0x17Dc724B7a2F09141C13b8AC33B396073785c2BC",
+      "interchainAccountIsm": "0x83a3068B719F764d413625dA77468ED74789ae02",
+      "interchainAccountRouter": "0x8e131c8aE5BF1Ed38D05a00892b6001a7d37739d",
+      "interchainGasPaymaster": "0x6f2756380FD49228ae25Aa7F2817993cB74Ecc56",
+      "interchainSecurityModule": "0x98b9b36dE6d1C722cF3A4daCddDfB00213F2645e",
+      "mailbox": "0xfFAEF09B3cd11D9b20d1a19bECca54EEC2884766",
+      "merkleTreeHook": "0x4917a9746A7B6E0A57159cCb7F5a6744247f2d0d",
+      "pausableHook": "0xa68022e53Fd28119D07C8336a8eC84A298Fd38Fd",
+      "protocolFee": "0x13AC3349Cb159fE86A22cf42DdA803D9f7309DB5",
+      "proxyAdmin": "0x97Bbc6bBaFa5Ce3b2FA966c121Af63bD09e940f8",
+      "staticAggregationHookFactory": "0x160C28C92cA453570aD7C031972b58d5Dd128F72",
+      "staticAggregationIsmFactory": "0xC83e12EF2627ACE445C298e6eC418684918a6002",
+      "staticMerkleRootMultisigIsmFactory": "0x0a71AcC99967829eE305a285750017C4916Ca269",
+      "staticMessageIdMultisigIsmFactory": "0xFEb9585b2f948c1eD74034205a7439261a9d27DD",
+      "storageGasOracle": "0x71775B071F77F1ce52Ece810ce084451a3045FFe",
+      "testRecipient": "0x9e6235f75dffe1cc118A2D7976D1C3c0BEFc8E33",
+      "testTokenRecipient": "0x031AD9c560D37baC7d6Bd2d27A2443bAfd10101A",
+      "timelockController": "0x0000000000000000000000000000000000000000",
+      "validatorAnnounce": "0xE6105C59480a1B7DD3E4f28153aFdbE12F4CfCD9",
+      "domainRoutingIsm": "0x98b9b36dE6d1C722cF3A4daCddDfB00213F2645e",
+      "customHook": "0x4917a9746A7B6E0A57159cCb7F5a6744247f2d0d",
+      "index": {
+        "from": 4517401
+      }
+    }
+  },
+  "defaultRpcConsensusType": "fallback"
+}
